@@ -60,8 +60,9 @@
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
           <runcommandpicklistitem>./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>./ExtendedKF ../data/sample-laser-radar-measurement-data-2.txt output.txt</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt</runcommand>
+        <runcommand>./ExtendedKF ../data/sample-laser-radar-measurement-data-2.txt output.txt</runcommand>
         <rundir>.</rundir>
         <buildfirst>false</buildfirst>
         <terminal-type>0</terminal-type>
