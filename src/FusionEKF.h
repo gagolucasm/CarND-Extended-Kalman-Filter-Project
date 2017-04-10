@@ -38,12 +38,23 @@ private:
   // previous timestamp
   long previous_timestamp_;
 
+  // position 
+  float px;
+  float py;
+  float vx;
+  float vy;
+
+  // acceleration components, handled as noise 
+  float sigma_ax;
+  float sigma_ay;
+
   // tool object used to compute Jacobian and RMSE
   Tools tools;
   Eigen::MatrixXd R_laser_;
   Eigen::MatrixXd R_radar_;
   Eigen::MatrixXd H_laser_;
   Eigen::MatrixXd Hj_;
+  Eigen::VectorXd z_pred;
 };
 
 #endif /* FusionEKF_H_ */

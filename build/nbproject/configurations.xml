@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+    </df>
+    <logicalFolder name="src" displayName="src" projectFiles="true" root="../src">
+      <logicalFolder name="Eigen" displayName="Eigen" projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <logicalFolder name="Cholesky" displayName="Cholesky" projectFiles="true">
+            <itemPath>../src/Eigen/src/Cholesky/LDLT.h</itemPath>
+            <itemPath>../src/Eigen/src/Cholesky/LLT.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Core" displayName="Core" projectFiles="true">
+            <logicalFolder name="arch" displayName="arch" projectFiles="true">
+              <logicalFolder name="Default" displayName="Default" projectFiles="true">
+                <itemPath>../src/Eigen/src/Core/arch/Default/Settings.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="SSE" displayName="SSE" projectFiles="true">
+                <itemPath>../src/Eigen/src/Core/arch/SSE/Complex.h</itemPath>
+                <itemPath>../src/Eigen/src/Core/arch/SSE/MathFunctions.h</itemPath>
+                <itemPath>../src/Eigen/src/Core/arch/SSE/PacketMath.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="products" displayName="products" projectFiles="true">
+              <itemPath>../src/Eigen/src/Core/products/CoeffBasedProduct.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/GeneralBlockPanelKernel.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/GeneralMatrixMatrix.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/GeneralMatrixVector.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/Parallelizer.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/SelfadjointMatrixMatrix.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/SelfadjointMatrixVector.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/SelfadjointProduct.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/SelfadjointRank2Update.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/TriangularMatrixMatrix.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/TriangularMatrixVector.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/TriangularSolverMatrix.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/products/TriangularSolverVector.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="util" displayName="util" projectFiles="true">
+              <itemPath>../src/Eigen/src/Core/util/BlasUtil.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/Constants.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/DisableStupidWarnings.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/ForwardDeclarations.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/MKL_support.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/Macros.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/Memory.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/Meta.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/ReenableStupidWarnings.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/StaticAssert.h</itemPath>
+              <itemPath>../src/Eigen/src/Core/util/XprHelper.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/Eigen/src/Core/Array.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/ArrayBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/ArrayWrapper.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Assign.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/BandMatrix.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Block.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/BooleanRedux.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CommaInitializer.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CoreIterators.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CwiseBinaryOp.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CwiseNullaryOp.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CwiseUnaryOp.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/CwiseUnaryView.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/DenseBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/DenseCoeffsBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/DenseStorage.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Diagonal.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/DiagonalMatrix.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/DiagonalProduct.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Dot.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/EigenBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Flagged.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/ForceAlignedAccess.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Functors.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Fuzzy.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/GeneralProduct.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/GenericPacketMath.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/GlobalFunctions.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/IO.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Map.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/MapBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/MathFunctions.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Matrix.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/MatrixBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/NestByValue.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/NoAlias.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/NumTraits.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/PermutationMatrix.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/PlainObjectBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/ProductBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Random.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Redux.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Ref.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Replicate.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/ReturnByValue.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Reverse.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Select.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/SelfAdjointView.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/SelfCwiseBinaryOp.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/SolveTriangular.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/StableNorm.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Stride.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Swap.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Transpose.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Transpositions.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/TriangularMatrix.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/VectorBlock.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/VectorwiseOp.h</itemPath>
+            <itemPath>../src/Eigen/src/Core/Visitor.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Eigenvalues" displayName="Eigenvalues" projectFiles="true">
+            <itemPath>../src/Eigen/src/Eigenvalues/ComplexEigenSolver.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/ComplexSchur.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/EigenSolver.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/HessenbergDecomposition.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/RealQZ.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/RealSchur.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h</itemPath>
+            <itemPath>../src/Eigen/src/Eigenvalues/Tridiagonalization.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Geometry" displayName="Geometry" projectFiles="true">
+            <logicalFolder name="arch" displayName="arch" projectFiles="true">
+              <itemPath>../src/Eigen/src/Geometry/arch/Geometry_SSE.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/Eigen/src/Geometry/AlignedBox.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/AngleAxis.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/EulerAngles.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Homogeneous.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Hyperplane.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/OrthoMethods.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/ParametrizedLine.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Quaternion.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Rotation2D.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/RotationBase.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Scaling.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Transform.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Translation.h</itemPath>
+            <itemPath>../src/Eigen/src/Geometry/Umeyama.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Householder" displayName="Householder" projectFiles="true">
+            <itemPath>../src/Eigen/src/Householder/BlockHouseholder.h</itemPath>
+            <itemPath>../src/Eigen/src/Householder/Householder.h</itemPath>
+            <itemPath>../src/Eigen/src/Householder/HouseholderSequence.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Jacobi" displayName="Jacobi" projectFiles="true">
+            <itemPath>../src/Eigen/src/Jacobi/Jacobi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="LU" displayName="LU" projectFiles="true">
+            <logicalFolder name="arch" displayName="arch" projectFiles="true">
+              <itemPath>../src/Eigen/src/LU/arch/Inverse_SSE.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/Eigen/src/LU/Determinant.h</itemPath>
+            <itemPath>../src/Eigen/src/LU/FullPivLU.h</itemPath>
+            <itemPath>../src/Eigen/src/LU/Inverse.h</itemPath>
+            <itemPath>../src/Eigen/src/LU/PartialPivLU.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="misc" displayName="misc" projectFiles="true">
+            <itemPath>../src/Eigen/src/misc/Image.h</itemPath>
+            <itemPath>../src/Eigen/src/misc/Kernel.h</itemPath>
+            <itemPath>../src/Eigen/src/misc/Solve.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="plugins" displayName="plugins" projectFiles="true">
+            <itemPath>../src/Eigen/src/plugins/ArrayCwiseBinaryOps.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/ArrayCwiseUnaryOps.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/BlockMethods.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/CommonCwiseBinaryOps.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/CommonCwiseUnaryOps.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/MatrixCwiseBinaryOps.h</itemPath>
+            <itemPath>../src/Eigen/src/plugins/MatrixCwiseUnaryOps.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="QR" displayName="QR" projectFiles="true">
+            <itemPath>../src/Eigen/src/QR/ColPivHouseholderQR.h</itemPath>
+            <itemPath>../src/Eigen/src/QR/FullPivHouseholderQR.h</itemPath>
+            <itemPath>../src/Eigen/src/QR/HouseholderQR.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="SVD" displayName="SVD" projectFiles="true">
+            <itemPath>../src/Eigen/src/SVD/JacobiSVD.h</itemPath>
+            <itemPath>../src/Eigen/src/SVD/UpperBidiagonalization.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/Eigen/Cholesky</itemPath>
+        <itemPath>../src/Eigen/Core</itemPath>
+        <itemPath>../src/Eigen/Dense</itemPath>
+        <itemPath>../src/Eigen/Eigenvalues</itemPath>
+        <itemPath>../src/Eigen/Geometry</itemPath>
+        <itemPath>../src/Eigen/Householder</itemPath>
+        <itemPath>../src/Eigen/Jacobi</itemPath>
+        <itemPath>../src/Eigen/LU</itemPath>
+        <itemPath>../src/Eigen/QR</itemPath>
+        <itemPath>../src/Eigen/SVD</itemPath>
+      </logicalFolder>
+      <itemPath>../src/FusionEKF.cpp</itemPath>
+      <itemPath>../src/FusionEKF.h</itemPath>
+      <itemPath>../src/ground_truth_package.h</itemPath>
+      <itemPath>../src/kalman_filter.cpp</itemPath>
+      <itemPath>../src/kalman_filter.h</itemPath>
+      <itemPath>../src/main.cpp</itemPath>
+      <itemPath>../src/measurement_package.h</itemPath>
+      <itemPath>../src/tools.cpp</itemPath>
+      <itemPath>../src/tools.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>GNU_1|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++0x"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>ExtendedKF</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../src/FusionEKF.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../src/kalman_filter.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../src/tools.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
