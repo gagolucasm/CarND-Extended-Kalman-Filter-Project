@@ -26,11 +26,10 @@ void KalmanFilter::Predict() {
 
 void KalmanFilter::Update(const VectorXd &z) {
 
-  MatrixXd Ht = H_.transpose();
-  MatrixXd S = H_ * P_ * Ht + R_;
-  MatrixXd Si = S.inverse();
-  MatrixXd PHt = P_ * Ht;
-  MatrixXd K = PHt * Si;
+
+  MatrixXd PHt = P_ * H_.transpose();
+  MatrixXd S = H_ * PHt + R_;
+  MatrixXd K = PHt * S.inverse();
   
 
   x_ = x_ + K *(z - H_ * x_);
@@ -57,11 +56,9 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   MatrixXd z_pred(3, 1);
   z_pred << range, bearing, range_rate;  
 
-  MatrixXd Ht = H_.transpose();
-  MatrixXd S = H_ * P_ * Ht + R_;
-  MatrixXd Si = S.inverse();
-  MatrixXd PHt = P_ * Ht;
-  MatrixXd K = PHt * Si;
+  MatrixXd PHt = P_ * H_.transpose();
+  MatrixXd S = H_ * PHt + R_;
+  MatrixXd K = PHt * S.inverse();
   
   //new estimate
   VectorXd y = z - z_pred;

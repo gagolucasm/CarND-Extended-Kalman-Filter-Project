@@ -74,8 +74,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
     // Radar measurement matrix
     Hj_ << 1,1,0,0,
-           1,1,0,0,
-           1,1,1,1;
+           0,0,0,0,
+           0,0,0,1;
 
     // Use sigma_ax = 9 and sigma_ay = 9 for your Q matrix 
     sigma_ax = 9;
@@ -115,9 +115,15 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       px = measurement_pack.raw_measurements_[0];
       py = measurement_pack.raw_measurements_[1];
 
-      if (px == 0 or py == 0){
-        return;
-      }
+      if(fabs(px) < 0.0001){
+        px = 0.1;
+        cout << "init px too small" << endl;
+    }
+
+    if(fabs(py) < 0.0001){
+        py = 0.1;
+        cout << "init py too small" << endl;
+}
       ekf_.x_<<px, py, 0, 0;
     }
 
